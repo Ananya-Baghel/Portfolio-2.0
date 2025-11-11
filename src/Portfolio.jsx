@@ -94,7 +94,8 @@ export default function Portfolio() {
 
   // ===== GitHub dynamic repos & filters =====
   const [repos, setRepos] = useState([]);
-  the const [loadingRepos, setLoadingRepos] = useState(false);
+  const [loadingRepos, setLoadingRepos] = useState(false);
+
   const [activeFilters, setActiveFilters] = useState([
     "Generative AI",
     "Data Science",
